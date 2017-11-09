@@ -25,16 +25,5 @@ window.eoxiaJS.eoFrameworkStarter.helloWorld = {};
  * @return {void}
  */
 window.eoxiaJS.eoFrameworkStarter.helloWorld.init = function() {
-	window.eoxiaJS.eoFrameworkStarter.helloWorld.event();
+	jQuery( '.wpeo-wrap iframe' ).css( 'height', jQuery( window ).height() + 'px' );
 };
-
-/**
- * La méthode "event" est appelé par la méthode "init".
- * Elle n'est pas obligatoire mais nous avons comme habitude de mêttre les évènements dans celle-ci. (addEventListener)
- *
- * @since 0.1.0
- * @version 0.1.0
- *
- * @return {void}
- */
-window.eoxiaJS.eoFrameworkStarter.helloWorld.event = function() {};
