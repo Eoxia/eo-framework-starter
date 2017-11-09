@@ -1,11 +1,15 @@
-.test {
-	display: block;
-	top: 0;
-	left: 0;
-	position: absolute;
-	background-color: black;
-	padding: 10px;
-	color: white;
-	opacity: 0;
-	transition: opacity 0.2s ease-out;
-}
+@charset "UTF-8";
+/**
+ * CSS générer par GULP grâce à la cmd "npm-start".
+ *
+ * Toute modification sur un fichier *.scss lance la compilation de tous les *.scss vers ce fichier.
+ *
+ * @since 0.1.0
+ * @version 0.1.0
+ */
+/**
+ * Les couleurs principales pour l'exemple de la page "Hello World".
+ *
+ * @since 0.1.0
+ * @version 0.1.0
+ */
