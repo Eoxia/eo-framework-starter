@@ -202,3 +202,7 @@ class Hello_World_Action {
 
 new Hello_World_Action();
 ```
+
+Ce fichier est très simple et nécessite aucune explication détailles, il utilise l'action "admin_menu" de WordPress pour ensuite ajouter une page dans le menu de WordPress.
+
+La méthode callback_add_menu_page utilise la méthode static exec de l'objet View_Util pour afficher la vue (template) du module. (Encore une fois, ce README.md n'est pas un tutoriel PHP ou WordPress; Voir EO-Framework pour plus de détails sur cette méthode).
