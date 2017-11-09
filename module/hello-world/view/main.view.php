@@ -1,7 +1,3 @@
-<div class="wpwrap">
-	<h1>Hello World</h1>
+<div class="wpeo-wrap">
+	<iframe style="width: 100%" src="<?php echo PLUGIN_NOM_PLUGIN_URL; ?>/core/external/eo-framework/core/assets/examples/index.html"></iframe>
 </div>
-
-
-<p class="wpeo-tooltip" aria-label="Test">Test</p>
-<p class="wpeo-tooltip" aria-label="DHUZAHFUAFZFHZUIAFHUIAFHZUIAFHZUIAFHZUIAFHZUIAFHZUIAFH">DFZAJFIOUFHZUIOAFHUZIAFHUIZAFHui</p>
