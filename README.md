@@ -124,4 +124,21 @@ En conclusion: Le module **core** permet de gérer les assets, actions, classes,
 
 ## Le module "hello-world"
 
+Nous sommes presque au bout; Ouvrons le fichier "hello_world.config.json", si vous avez suivi jusque là vous pouvez imaginer ce qu'il contient:
+```json
+{
+	"name": "Hello World",
+	"slug": "hello_world",
+	"version": "0.1.0",
+	"path": "module/hello-world",
+	"dependencies": {
+		"action": {}
+	}
+}
+```
+
+Rien de bien compliqué, il faut juste comprendre que ce fichier est appelé grâce à "starter.config.json" grâce à l'entré "module/hello-world/hello_world.config.json" dans le tableau "modules".
+
+Dans ce fichier, nous retrouvons l'entrée "action" dans le tableau "dependencies" ce qui signifie pour EO-Framework qu'il doit inclure tous les fichiers se trouvant dans le dossier "action" du module "hello-world".
+
 
