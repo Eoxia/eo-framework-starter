@@ -37,8 +37,8 @@ class Core_Action {
 	 * @return void nothing
 	 */
 	public function callback_admin_enqueue_scripts() {
-		wp_enqueue_style( 'test-backend-style', PLUGIN_NOM_PLUGIN_URL . 'core/asset/css/style.css', array(), \eoxia\Config_Util::$init['starter']->version );
-		wp_enqueue_script( 'test-backend-script', PLUGIN_NOM_PLUGIN_URL . 'core/asset/js/backend.min.js', array(), \eoxia\Config_Util::$init['starter']->version );
+		wp_enqueue_style( 'eo-framework-starter-backend-style', PLUGIN_NOM_PLUGIN_URL . 'core/asset/css/style.css', array(), \eoxia\Config_Util::$init['starter']->version );
+		wp_enqueue_script( 'eo-framework-starter-backend-script', PLUGIN_NOM_PLUGIN_URL . 'core/asset/js/backend.min.js', array(), \eoxia\Config_Util::$init['starter']->version );
 	}
 }
 
