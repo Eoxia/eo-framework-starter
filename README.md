@@ -9,7 +9,7 @@
 * WordPress
 * Gulp
 
-Récupérer ce dépôt avec la commande suivnate:
+Récupérer ce dépôt avec la commande suivante:
 
 ```bash
 git clone https://github.com/Eoxia/eo-framework-starter plugin-name && cd plugin-name && rm -rf .git && git init && git submodule add https://github.com/Eoxia/eo-framework core/external/eo-framework
@@ -62,9 +62,9 @@ require_once( 'core/external/eo-framework/eo-framework.php' );
 Ce fichier contient: 
 * Les "headers" obligatoire pour déclarer  un plugin WordPress.
 * Trois "DEFINE" qui permettent des actions utiles dans vos modules.
-	* PLUGIN_NOM_PLUGIN_PATH: Le chemin absolue vers votre plugin.
-	* PLUGIN_NOM_PLUGIN_URL: L'url complet vers votre plugin.
-	* PLUGIN_NOM_PLUGIN_DIR: Le chemin absolue vers votre plugin sans le nom du fichier starter.php.
+	* **PLUGIN_NOM_PLUGIN_PATH**: Le chemin absolue vers votre plugin.
+	* **PLUGIN_NOM_PLUGIN_URL**: L'url complet vers votre plugin.
+	* **PLUGIN_NOM_PLUGIN_DIR**: Le chemin absolue vers votre plugin sans le nom du fichier starter.php.
 * La ligne *require_once* permet d'inclure EO-Framework.
 * La dernière ligne permet de lancer le boot du plugin avec EO-Framework.
 
@@ -81,13 +81,13 @@ Le fichier principal de config: **starter.config.json**
 }
 ```
 
-Le fichier JSON est obligatoire pour initialisé le plugin avec EO-Framework. Le slug doit obligatoriement correspondre au nom du fichier **boot** de *WordPress*.
+Le fichier JSON est obligatoire pour initialisé le plugin avec EO-Framework. Le slug doit obligatoirement correspondre au nom du fichier **boot** de *WordPress*.
 
 Ensuite le tableau "modules" permet de **communiquer** à EO-Framework les modules à initialiser lors du boot du plugin.
 
 ## Le dossier core
 
-Ce dossier est un traité comme un **module** par EO-Framework, il vas d'abord lire le fichier core.config.json.
+Ce dossier est un traité comme un **module** par EO-Framework, il vas d'abord lire le fichier core.config.json pour ensuite nitialiser les fichiers requis par le module (dependencies).
 
 ```json
 {
@@ -121,3 +121,7 @@ Cette procédure est similaire pour le *CSS*. GULP vas récupérer tous les \*.b
 Le fichier "core/action/init.js" permet de déclarer l'objet (qui est une sorte de namespace pour éviter les conflits entre vos différents plugins) qui sera utilisé tout le long de votre dévelopement JS. Nous y reviendrons.
 
 En conclusion: Le module **core** permet de gérer les assets, actions, classes, shortcodes, filtres et vues qui selon vous n'on pas leur place dans un module spécifique.
+
+## Le module "hello-world"
+
+
