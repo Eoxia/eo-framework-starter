@@ -1,6 +1,6 @@
 {
   "name": "submodule-gulp",
-  "version": "1.1.0",
+  "version": "0.1.0",
   "description": "Submodule et GULP",
   "main": "gulpfile.js",
   "scripts": {
