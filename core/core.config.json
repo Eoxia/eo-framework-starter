@@ -1,8 +1,8 @@
 {
-	"name": "Test Core",
+	"name": "Core",
 	"slug": "core",
 	"version": "0.1.0",
-	"description": "Les fichiers core du plugin",
+	"description": "Main files of my_plugin",
 	"path": "core/",
 	"dependencies": {
 		"action": {}

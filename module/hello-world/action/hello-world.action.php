@@ -1,25 +1,27 @@
 <?php
 /**
- * Les actions du module "Hello World".
+ * Action of "Hello_World" module.
  *
- * @author Jimmy Latour <jimmy.eoxia@gmail.com>
+ * @author You <you@mail>
  * @since 0.1.0
  * @version 0.1.0
- * @copyright 2015-2017 Eoxia
- * @package EO_Framework_Starter
+ * @copyright 2017+
+ * @package my_plugin
  */
+
+namespace my_plugin;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
 /**
- * Les actions du module "Hello World".
+ * Action of "Hello_World" module.
  */
 class Hello_World_Action {
 
 	/**
-	 * Le constructeur
+	 * Constructor
 	 *
 	 * @since 0.1.0
 	 * @version 0.1.0
@@ -30,7 +32,7 @@ class Hello_World_Action {
 
 
 	/**
-	 * Ajout du sous menu 'Hello World' dans le menu de WordPress.
+	 * Add submenu "Hello Word".
 	 *
 	 * @since 0.1.0
 	 * @version 0.1.0
@@ -40,7 +42,7 @@ class Hello_World_Action {
 	}
 
 	/**
-	 * Le callback pour afficher la vue.
+	 * Display view of the submenu "Hello World".
 	 *
 	 * @since 0.1.0
 	 * @version 0.1.0
